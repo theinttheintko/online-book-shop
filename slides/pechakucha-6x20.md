@@ -17,7 +17,7 @@ Traditional bookstore interfaces lack reactivity and modern design aesthetics.
 ---
 
 # Our Solution
-A modular, Angular-based bookstore with real-time reactive search and sleek dark-theme UI.
+A modular, Angular-based bookstore with real-time reactive search and a clean, minimalist, light-themed UI.
 <!-- footer: 0:20 auto-advance -->
 
 ---
