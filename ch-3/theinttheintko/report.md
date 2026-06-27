@@ -2,8 +2,8 @@
 
 * **github_username:** theinttheintko
 * **personal_repo_url:** https://github.com/theinttheintko/online-book-shop
-* **project_summary:** A full-stack bookstore application with a Spring Boot backend and an Angular reactive frontend, featuring real-time search and modern dark-themed UI.
-* **slides_url:** slides/pitch.md
+* **project_summary:** A full-stack bookstore application with a Spring Boot backend and an Angular reactive frontend, featuring real-time search and a clean, minimalist, light-themed UI.
+* **slides_url:** slides/pechakucha-6x20.md
 
 ### Methodology
 I developed this project using an iterative, component-based methodology. 
