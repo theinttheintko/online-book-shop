@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-md navbar-light py-3 shadow-sm sticky-top" style="background-color: #e8f5e9;">
+  <div class="container">
+    <a routerLink="/home" class="navbar-brand d-flex align-items-center">
+      <i class="fas fa-book-open text-success me-2 fs-3"></i>
+      <span class="fw-bold tracking-wide text-uppercase" style="letter-spacing: 1px; color: #2e7d32;">BookStore</span>
+    </a>    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="myNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a routerLink="/home" class="nav-link">Home</a></li>
+        <li class="nav-item"><a routerLink="/about" class="nav-link">About</a></li>
+        <li class="nav-item"><a routerLink="/contact" class="nav-link">Contact Us</a></li>
+      </ul>
+
+      <div class="d-flex align-items-center gap-3">
+        <input 
+           class="form-control rounded-pill border-success shadow-sm" 
+             type="search" 
+             placeholder="Search for books..." 
+             [(ngModel)]="searchQuery" 
+             (ngModelChange)="onSearch()"
+             style="max-width: 300px; padding-left: 15px;">
+          
+          <a routerLink="/cart" class="position-relative">
+            <i class="fas fa-shopping-cart fs-3"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" 
+                  *ngIf="(cartservice.$cart | async)?.length as count">
+              {{ count }}
+            </span>
+          </a>
+      </div>
+    </div>
+  </div>
+</nav>/

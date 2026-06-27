@@ -1,0 +1,20 @@
+.text-success-hover:hover {
+    color: #2e7d32 !important; 
+  }
+  
+  .active-link {
+    color: #1b5e20 !important; 
+    font-weight: 700 !important;
+    border-bottom: 2px solid #2e7d32;
+  }
+
+.form-control {
+  transition: all 0.3s ease;
+  border: 1px solid #c8e6c9;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.3); 
+  border-color: #4caf50;
+  outline: none;
+}

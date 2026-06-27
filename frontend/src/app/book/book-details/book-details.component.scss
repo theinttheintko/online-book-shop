@@ -1,0 +1,21 @@
+.component-tabs {
+    a {
+      font-size: 0.95rem;
+      letter-spacing: 0.5px;
+      transition: all 0.3s ease;
+      border-bottom: 2px solid transparent;
+  
+      &:hover {
+        color: #000000 !important;
+      }
+    }
+  
+    .active-tab {
+      color: #e0a995 !important; /* Premium Rose-gold tone */
+      border-bottom: 2px solid #e0a995;
+    }
+  }
+  
+  .min-height-150 {
+    min-height: 120px;
+  }

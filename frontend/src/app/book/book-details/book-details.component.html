@@ -1,0 +1,48 @@
+<div class="container my-5 py-5" *ngIf="book">
+  <div class="row g-5 align-items-center">
+    <div class="col-md-5 text-center">
+      <div class="shadow rounded-4 overflow-hidden bg-light p-4 d-inline-block">
+        <img [src]="'assets/' + book.imgUrl" 
+             [alt]="book.title" 
+             class="img-fluid rounded-3 shadow-sm" 
+             style="max-height: 450px;">
+      </div>
+    </div>
+    
+    <div class="col-md-7">
+      <span class="badge bg-secondary px-3 py-2 rounded-pill mb-3">{{ book.category }}</span>
+      <h1 class="display-5 fw-bold text-dark mb-2">{{ book.title }}</h1>
+      
+      <h6 class="text-warning mb-4">
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <span class="text-muted ms-1 fs-6">(4.8 / 5.0 Rating)</span>
+      </h6>
+      
+      <div class="row border-top border-bottom py-3 my-4 bg-light rounded-3 px-2">
+        <div class="col-6">
+          <small class="text-muted d-block text-uppercase">Author</small>
+          <span class="fw-bold text-secondary">{{ book.author }}</span>
+        </div>
+        <div class="col-6 text-end">
+          <small class="text-muted d-block text-uppercase">Price</small>
+          <span class="h3 fw-bold text-danger">${{ book.price }}</span>
+        </div>
+      </div>
+      
+      <div class="mb-4">
+        <h5 class="fw-bold text-dark mb-2">Synopsis</h5>
+        <p class="text-muted lh-lg">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      
+      <button (click)="addToCart(book!)" class="btn btn-dark btn-lg px-5 py-3 rounded-pill shadow-sm">
+        <i class="bi bi-bag-plus-fill me-2"></i> Add to Cart
+      </button>
+    </div>
+  </div>
+</div>
