@@ -24,4 +24,4 @@ I developed this project using an iterative, component-based methodology.
 
 #### Agent
 * **path:** .claude/agents/ui-architect.md
-* **what:** Created an automated UI architect agent that monitors CSS and HTML structures to maintain the "Modern Dark" aesthetic and amber/charcoal color scheme across all pages.
+* **what:** Created an automated UI architect agent that monitors CSS and HTML structures to maintain a clean, minimalist, and light-themed aesthetic, ensuring high readability and consistent design across all bookstore pages.
