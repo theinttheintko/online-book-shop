@@ -1,4 +1,3 @@
-cat <<EOF > .gitignore
 # dependencies
 node_modules/
 
@@ -13,4 +12,3 @@ dist/
 # IDE settings
 .vscode/
 .idea/
-EOF
