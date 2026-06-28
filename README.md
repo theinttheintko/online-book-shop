@@ -15,7 +15,8 @@ npm run preview    # preview the built dist/ locally
 1. Navigate to the backend directory:
 ```bash
 cd backend
-Run the application:
+```
+2. Run the application:
 ./mvnw spring-boot:run
 ```
 
