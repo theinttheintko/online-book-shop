@@ -2,10 +2,13 @@
 
 A full-stack book store application featuring a Spring Boot backend and an Angular frontend.
 
-## Table of Contents
-- [Project Structure](#project-structure)
-- [How to Run](#how-to-run)
-- [Features](#features)
+## How To Run
+
+```bash
+npm install        # install dependencies
+npm run dev        # local dev server at http://localhost:4321/vibe-code-tours-site
+npm run build      # static build into dist/
+npm run preview    # preview the built dist/ locally
 
 ## Project Structure
 
