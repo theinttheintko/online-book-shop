@@ -36,8 +36,11 @@ online-book-shop/
 └── frontend/         # Angular Application
     └── src/app/      # Components, Services, and Data
 ```
-## Features
-Book Management: Efficient handling of book data via Spring Boot.
-Responsive UI: Modern bookstore interface built with Angular.
-Architectural Standards: Organized modular structure for scalability.
+## Key Features
+- Book Catalog: Browse through an organized collection of books with detailed information.
+- Shopping Cart: Add your favorite books to the cart and review them anytime.
+- Price Calculation: Automatically calculates the total price of items in your cart for a quick checkout.
+- Smart Filtering: Quickly find the books you need using our integrated search system.
+- Responsive Design: Fully optimized interface that works smoothly on mobile, tablet, and desktop devices.
+- Secure Backend: Powered by Spring Boot to ensure reliable and fast data processing.
 
