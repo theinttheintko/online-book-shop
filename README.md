@@ -29,7 +29,7 @@ cd frontend
 ```bash
 npm install        # install dependencies
 ```
-2. Start the development server:
+3. Start the development server:
 ```bash
 npm start
 ```
