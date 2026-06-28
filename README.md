@@ -10,9 +10,10 @@ npm run dev        # local dev server at http://localhost:4321/vibe-code-tours-s
 npm run build      # static build into dist/
 npm run preview    # preview the built dist/ locally
 ```
+
+### Backend
+1. Navigate to the backend directory:
 ```bash
-Backend
-Navigate to the backend directory:
 cd backend
 Run the application:
 ./mvnw spring-boot:run
