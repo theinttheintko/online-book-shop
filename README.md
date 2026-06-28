@@ -2,23 +2,10 @@
 
 A full-stack book store application featuring a Spring Boot backend and an Angular frontend.
 
-## How to Run
-Backend
-Navigate to the backend directory: cd backend
-
-Run the application: ./mvnw spring-boot:run
-
-Frontend
-Navigate to the frontend directory: cd frontend
-
-Install dependencies: npm install
-
-Start the development server: npm start
-
-Features
-Book Management: Efficient handling of book data via Spring Boot.
-
-Responsive UI: Modern bookstore interface built with Angular.
+## Table of Contents
+- [Project Structure](#project-structure)
+- [How to Run](#how-to-run)
+- [Features](#features)
 
 ## Project Structure
 
@@ -29,5 +16,3 @@ online-book-shop/
 │   └── src/main/resources/                  # Templates, static assets
 └── frontend/         # Angular Application
     └── src/app/      # Components, Services, and Data
-
-
