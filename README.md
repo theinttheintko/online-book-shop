@@ -4,13 +4,6 @@ A full-stack book store application featuring a Spring Boot backend and an Angul
 
 ## How To Run
 
-```bash
-npm install        # install dependencies
-npm run dev        # local dev server at http://localhost:4321/vibe-code-tours-site
-npm run build      # static build into dist/
-npm run preview    # preview the built dist/ locally
-```
-
 ### Backend
 1. Navigate to the backend directory:
 ```bash
@@ -42,3 +35,9 @@ online-book-shop/
 │   └── src/main/resources/                  # Templates, static assets
 └── frontend/         # Angular Application
     └── src/app/      # Components, Services, and Data
+```
+## Features
+Book Management: Efficient handling of book data via Spring Boot.
+Responsive UI: Modern bookstore interface built with Angular.
+Architectural Standards: Organized modular structure for scalability.
+
