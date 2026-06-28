@@ -12,19 +12,6 @@ online-book-shop/
 └── frontend/         # Angular Application
     └── src/app/      # Components, Services, and Data
 
-How to Run
-Backend
-Navigate to the backend directory: cd backend
-
-Run the application: ./mvnw spring-boot:run
-
-Frontend
-Navigate to the frontend directory: cd frontend
-
-Install dependencies: npm install
-
-Start the development server: npm start
-
 Features
 Book Management: Efficient handling of book data via Spring Boot.
 
