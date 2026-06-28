@@ -1,12 +1,13 @@
 # Online Book Shop
-A minimalist bookstore project featuring responsive design and book management.
 
-## Features
-- Book browsing and filtering
-- Responsive UI components
-- Integrated AI-powered UI Architect
+A full-stack book store application featuring a Spring Boot backend and an Angular frontend.
 
-## Getting Started
-1. Clone this repository.
-2. Install dependencies.
-3. Run the project.
+## Project Structure
+
+```text
+online-book-shop/
+├── backend/          # Spring Boot Application
+│   ├── src/main/java/com/example/bookshop/  # Source code
+│   └── src/main/resources/                  # Templates, static assets
+└── frontend/         # Angular Application
+    └── src/app/      # Components, Services, and Data
