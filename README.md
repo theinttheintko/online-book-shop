@@ -20,7 +20,19 @@ cd backend
 ```bash
 ./mvnw spring-boot:run
 ```
-
+### Frontend
+1. Navigate to the frontend directory:
+```bash
+cd frontend
+```
+2. Install dependencies
+```bash
+npm install        # install dependencies
+```
+2. Start the development server:
+```bash
+npm start
+```
 ## Project Structure
 
 ```text
