@@ -2,16 +2,6 @@
 
 A full-stack book store application featuring a Spring Boot backend and an Angular frontend.
 
-## Project Structure
-
-```text
-online-book-shop/
-├── backend/          # Spring Boot Application
-│   ├── src/main/java/com/example/bookshop/  # Source code
-│   └── src/main/resources/                  # Templates, static assets
-└── frontend/         # Angular Application
-    └── src/app/      # Components, Services, and Data
-
 ## How to Run
 Backend
 Navigate to the backend directory: cd backend
@@ -29,3 +19,15 @@ Features
 Book Management: Efficient handling of book data via Spring Boot.
 
 Responsive UI: Modern bookstore interface built with Angular.
+
+## Project Structure
+
+```text
+online-book-shop/
+├── backend/          # Spring Boot Application
+│   ├── src/main/java/com/example/bookshop/  # Source code
+│   └── src/main/resources/                  # Templates, static assets
+└── frontend/         # Angular Application
+    └── src/app/      # Components, Services, and Data
+
+
