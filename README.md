@@ -9,7 +9,7 @@ npm install        # install dependencies
 npm run dev        # local dev server at http://localhost:4321/vibe-code-tours-site
 npm run build      # static build into dist/
 npm run preview    # preview the built dist/ locally
-
+```
 ## Project Structure
 
 ```text
