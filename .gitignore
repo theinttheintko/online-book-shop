@@ -1,0 +1,16 @@
+cat <<EOF > .gitignore
+# dependencies
+node_modules/
+
+# environment variables
+.env
+
+# logs and build output
+dist/
+*.log
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
+EOF
